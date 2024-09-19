@@ -24,6 +24,11 @@ html {
     justify-content: space-between;
 }
 
+.flex-center {
+    justify-content: center; 
+    align-items: center;
+}
+
 .grid-center {
     display: flex;
     place-items: center;
@@ -111,7 +116,6 @@ section {
 .icon {
     height: 100%;
     width: 100px;
-    line-height: 100px;
 }
 
 .data {
@@ -124,38 +128,55 @@ section {
     width: 100%;
 }
 
-/*
-.users .icon {
+
+ i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.users i {
+    display: flex; 
+    justify-content: center;
+    line-height: 40px;
     color: #2576d2;
     background-color: #e3f2fd; 
 }
-
-.messages-icon {
+.messages i {
+    display: flex; 
+    justify-content: center;
+    line-height: 40px;
     color: #d81b60;
-    background-color: #fce4ec; 
+    background-color: #fce4ec;
 }
-
-.articles-icon {
+.articles i {
+    display: flex; 
+    justify-content: center;
+    line-height: 40px;
     color: #388e3c;
-    background-color: #e8f5e9; 
+    background-color: #e8f5e9;  
 }
-
-.moderators-icon {
+.moderators i {
+    display: flex; 
+    justify-content: center;
+    line-height: 40px;
     color: #d32f2f;
     background-color: #feebee; 
 }
-
-.visitors-icon {
+.visitors i {
+    display: flex; 
+    justify-content: center;
+    line-height: 40px;
     color: #512da8;
-    background-color: #ede7f6; 
+    background-color: #ede7f6;
 }
-
-.tasks-icon {
+.tasks i {
+    display: flex; 
+    justify-content: center;
+    line-height: 40px;
     color: #faa002;
     background-color: #fef3df; 
 }
-
-*/
 
 
 /********************/
